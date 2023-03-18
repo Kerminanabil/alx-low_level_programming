@@ -10,10 +10,10 @@ int main(void)
 	char alphabets[26 * 2] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	int i;
 
-	for (i = 0; i < 53; i++)
+	for (i = 0; i < 52; i++)
 	{
 		putchar(alphabets[i]);
 	}
 	putchar('\n');
-	return(0);
+	return (0);
 }
