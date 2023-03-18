@@ -13,7 +13,8 @@ int main(void)
 		putchar (num);
 		if (num != 9 && num != 0)
 		{
-			printf("%d", num + ", ");
+			putchar(',');
+			putchar(' ');
 		}
 	}
 	putchar('\n');
